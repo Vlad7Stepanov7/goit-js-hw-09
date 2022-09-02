@@ -19,7 +19,7 @@ function onBtnStartClick(e) {
 
     btnStart.disabled = isActive;
     btnStop.disabled = !isActive;
-
+    
     intervalId = setInterval(() => {
         body.style.backgroundColor = getRandomHexColor();
         console.log(body.style.backgroundColor = getRandomHexColor());
